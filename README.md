@@ -125,7 +125,7 @@ Declare the VisaPushProvisioningListener methods, we will implement them later:
      override fun supportedWalletFailure(
         pushProvisioningInterface: VisaPushProvisioningInterface,
         error: VPError
-    ) { }
+    ) { } ```
     
 
 
