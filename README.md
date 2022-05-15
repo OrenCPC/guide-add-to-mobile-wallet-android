@@ -88,7 +88,7 @@ implementation "androidx.lifecycle:lifecycle-process:$any-latest-version"
 implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$any-latest-version"
 implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$any-latest-version" }
 
-#### Step 2 - Hold a strong reference to VisaPushProvisioningInterface
+#### Step 2 - Hold a reference to VisaPushProvisioningInterface
 
 ` var pushProvisioningInterface: VisaPushProvisioningInterface? = null `
 
