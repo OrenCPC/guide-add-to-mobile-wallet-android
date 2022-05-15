@@ -23,7 +23,7 @@ Before you start with the technical integration, please follow the prerequiremen
 
 • The minimum supported Java version is 1.8.
 
-`TODO`
+`TODO: Add forms and other prerequirements`
 
 ## Integration steps
 
