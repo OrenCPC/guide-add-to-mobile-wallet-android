@@ -163,7 +163,8 @@ Read more details in [Unit get mobile wallet payload docs](https://docs.unit.co/
 Call to `getSupportedWallets(request: VPSupportedWalletRequest)` method using the payload from step 5
 
 
-`val vpSupportedWalletRequest = VPSupportedWalletRequest(payload)
+`
+val vpSupportedWalletRequest = VPSupportedWalletRequest(payload)
  pushProvisioningInterface?.getSupportedWallets(vpSupportedWalletRequest)`
  
  Handle `getSupportedWallets` callbacks of the `VisaPushProvisioningListener`
@@ -180,5 +181,5 @@ override fun supportedWalletSuccess(
         error: VPError
     ) {
      // handle error
-    } 
-    
+    }    
+`
