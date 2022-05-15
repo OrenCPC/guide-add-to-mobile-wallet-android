@@ -12,6 +12,11 @@ Contact Unit for the SDK's binaries.
 
 Before you start with the technical integration, please follow the prerequirements below:
 
+• The minimum supported Android SDK API version is 26.
+• The deployment target is Android SDK API version is 30.
+• The minimum supported Kotlin version is 1.5.10.
+• The minimum supported Java version is 1.8.
+
 `TODO`
 
 ## Integration steps
