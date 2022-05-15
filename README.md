@@ -134,5 +134,27 @@ Initialize the VisaPushProvisioningInterface instance in the init() method of yo
 pushProvisioningInterface = VisaPushProvisioningInterfaceFactory.createPushProvisioningInterface(this)
 `
 
+#### Step 3 - Initialize Visa SDK and get the signedNonce
+Call to `initialize()` method
+`pushProvisioningInterface?.initialize()`
+
+Handle initialization callbacks of the VisaPushProvisioningListener
+
+`override fun initializationSuccess(
+   pushProvisioningInterface: VisaPushProvisioningInterface,
+   response: VPInitResponse
+   ) { 
+   var signedNonce = response.signedNonce
+   }
+   
+   override fun initializationFailure(
+    pushProvisioningInterface: VisaPushProvisioningInterface,
+    error: VPError
+    ) {
+    //handle error
+    }
+    
+   `
+
 
 
