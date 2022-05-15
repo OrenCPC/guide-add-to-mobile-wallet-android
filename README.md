@@ -30,15 +30,6 @@ This section describes the technical steps needed to integrate with Visa's SDK a
 
 `TODO`
 
-### Add to Wallet flow
-
-#### Overview
-
-The following diagram demonstrates the Add to Wallet flow.
-Below the diagram, you will find an explanation for each step in the flow.<br/><br/>
-`TODO: Add the diagram asset`
-
-![](./Docs/assets/add_to_wallet_flow_diagram.png)
 
 ### Add Visa SDK to your project
 
@@ -50,6 +41,16 @@ Below the diagram, you will find an explanation for each step in the flow.<br/><
 - play-services-tapandpay-17.0.1.aar - dexguard-runtime-9.0.6.aar
 
 Note: If a version of the VDES DK prior to v 2.0.0 hasbeen previously implemented, clients must delete all of the older libraries and add the new ones in the libs folder.
+
+### Add to Wallet flow
+
+#### Overview
+
+The following diagram demonstrates the Add to Wallet flow.
+Below the diagram, you will find an explanation for each step in the flow.<br/><br/>
+`TODO: Add the diagram asset`
+
+![](./Docs/assets/add_to_wallet_flow_diagram.png)
 
 ### Gradle Dependencies:
 1.
