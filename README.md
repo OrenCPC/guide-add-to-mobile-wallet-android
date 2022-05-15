@@ -96,7 +96,7 @@ implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$any-latest-ver
 
 Declare the VisaPushProvisioningListener methods, we will implement them later:
 
-   ```kotlin
+   ``` kotlin
    override fun initializationSuccess(
    pushProvisioningInterface: VisaPushProvisioningInterface,
    response: VPInitResponse
@@ -126,7 +126,7 @@ Declare the VisaPushProvisioningListener methods, we will implement them later:
         pushProvisioningInterface: VisaPushProvisioningInterface,
         error: VPError
     ) { } 
-    
+    ```
 
 
 Initialize the VisaPushProvisioningInterface instance in the init() method of your class:
