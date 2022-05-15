@@ -145,7 +145,7 @@ override fun initializationSuccess(
    pushProvisioningInterface: VisaPushProvisioningInterface,
    response: VPInitResponse
    ) { 
-   var signedNonce = response.signedNonce
+   val signedNonce = response.signedNonce
    }
    
    override fun initializationFailure(
