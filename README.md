@@ -95,20 +95,31 @@ implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$any-latest-ver
 #### Step 3 - Initialize the VisaPushProvisioningInterface instance and implement the VisaPushProvisioningListener
 
 Declare the VisaPushProvisioningListener methods, we will implement them later:
-`val listener = object : VisaPushProvisioningListener {
-override fun initializationSuccess(pushProvisioningInterface: VisaPushProvisioningInterface, response: VPInitResponse) {
-TODO("Not yet implemented") }
-override fun initializationFailure(pushProvisioningInterface: VisaPushProvisioningInterface, error: VPError) {
-TODO("Not yet implemented") }
-override fun cardProvisioningSuccess(pushProvisioningInterface: VisaPushProvisioningInterface, response: VPCardProvisioningResponse) {
-TODO("Not yet implemented") }
-override fun cardProvisioningFailure(pushProvisioningInterface: VisaPushProvisioningInterface, error: VPError) {
-TODO("Not yet implemented") }
-override fun supportedWalletSuccess(pushProvisioningInterface: VisaPushProvisioningInterface, response: VPSupportedWalletResponse) {
-TODO("Not yet implemented") }
-override fun supportedWalletFailure(pushProvisioningInterface: VisaPushProvisioningInterface, error: VPError) {
-TODO("Not yet implemented") }
-}`
+`     override fun initializationSuccess(pushProvisioningInterface: VisaPushProvisioningInterface, response: VPInitResponse) {}
+
+    override fun initializationFailure(pushProvisioningInterface: VisaPushProvisioningInterface, error: VPError) { }
+    
+    override fun cardProvisioningSuccess(
+        pushProvisioningInterface: VisaPushProvisioningInterface,
+        response: VPCardProvisioningResponse
+    ) { }
+    
+    override fun cardProvisioningFailure(
+        pushProvisioningInterface: VisaPushProvisioningInterface,
+        error: VPError
+    ) { }
+    
+     override fun supportedWalletSuccess(
+        pushProvisioningInterface: VisaPushProvisioningInterface,
+        response: VPSupportedWalletResponse
+    ) { }
+    
+     override fun supportedWalletFailure(
+        pushProvisioningInterface: VisaPushProvisioningInterface,
+        error: VPError
+    ) { }
+
+`
 
 Initialize the VisaPushProvisioningInterface instance in the init() method of your class:
 ` pushProvisioningInterface = VisaPushProvisioningInterfaceFactory.createPushProvisioningInterface(listener)`
