@@ -124,6 +124,8 @@ Declare the VisaPushProvisioningListener methods, we will implement them later:
 `
 
 Initialize the VisaPushProvisioningInterface instance in the init() method of your class:
-` pushProvisioningInterface = VisaPushProvisioningInterfaceFactory.createPushProvisioningInterface(listener)`
+`         pushProvisioningInterface = VisaPushProvisioningInterfaceFactory.createPushProvisioningInterface(this)
+`
+
 
 
