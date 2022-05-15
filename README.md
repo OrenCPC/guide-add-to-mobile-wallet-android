@@ -137,12 +137,15 @@ Declare the VisaPushProvisioningListener methods, we will implement them later:
 
 #### Step 4 - Initialize Visa SDK and get the signedNonce
 Call to `initialize()` method
-`pushProvisioningInterface?.initialize()`
+```kotlin 
+pushProvisioningInterface?.initialize()
+```
 
 Handle initialization callbacks of the VisaPushProvisioningListener
 
 
-`override fun initializationSuccess(
+```kotlin 
+override fun initializationSuccess(
    pushProvisioningInterface: VisaPushProvisioningInterface,
    response: VPInitResponse
    ) { 
@@ -154,7 +157,8 @@ Handle initialization callbacks of the VisaPushProvisioningListener
     error: VPError
     ) {
     //handle error
-    }`
+    }
+```
 
 #### Step 5 - Get wallet payload from Unit API
 Get the mobile wallet encrypted payload for a specified Unit card from Unit API.
@@ -164,7 +168,7 @@ Read more details in [Unit get mobile wallet payload docs](https://docs.unit.co/
 Call to `getSupportedWallets(request: VPSupportedWalletRequest)` method using the payload from step 5
 
 
-`
+```kotlin 
 val vpSupportedWalletRequest = VPSupportedWalletRequest(payload)
  pushProvisioningInterface?.getSupportedWallets(vpSupportedWalletRequest)`
  
@@ -183,17 +187,20 @@ override fun supportedWalletSuccess(
     ) {
      // handle error
     }    
-`
+```
 
 #### Step 7 - Start card provisioning
 Call to `startCardProvisioning(context: Context, request: VPCardProvisioningRequest)` method:
 
-`val vpCardProvisioningRequest = VPCardProvisioningRequest(wallet.code, wallet.name)
-pushProvisioningInterface?.startCardProvisioning(context, vpCardProvisioningRequest)`
+```kotlin 
+val vpCardProvisioningRequest = VPCardProvisioningRequest(wallet.code, wallet.name)
+pushProvisioningInterface?.startCardProvisioning(context, vpCardProvisioningRequest)
+```
 
 Handle `startCardProvisioning` callbacks of the `VisaPushProvisioningListener`
 
-`override fun cardProvisioningSuccess(
+```kotlin 
+override fun cardProvisioningSuccess(
         pushProvisioningInterface: VisaPushProvisioningInterface,
         response: VPCardProvisioningResponse
     ) {
@@ -205,5 +212,6 @@ Handle `startCardProvisioning` callbacks of the `VisaPushProvisioningListener`
         error: VPError
     ) {
       // handle error
-}`
+}
+```
 
