@@ -44,6 +44,8 @@ This section describes the technical steps needed to integrate with Visa's SDK a
 
 Note: If a version of the VDE SDK prior to v 2.0.0 has been previously implemented, clients must delete all of the older libraries and add the new ones in the libs folder.
 
+`TO DO: Visa SDK Configuration?`
+
 ### Add to Wallet flow
 
 #### Overview
