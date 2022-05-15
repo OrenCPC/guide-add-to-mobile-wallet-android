@@ -95,7 +95,7 @@ implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$any-latest-ver
 #### Step 3 - Initialize the VisaPushProvisioningInterface instance and implement the VisaPushProvisioningListener
 
 Declare the VisaPushProvisioningListener methods, we will implement them later:
-`     override fun initializationSuccess(pushProvisioningInterface: VisaPushProvisioningInterface, response: VPInitResponse) {}
+`override fun initializationSuccess(pushProvisioningInterface: VisaPushProvisioningInterface, response: VPInitResponse) {}
 
     override fun initializationFailure(pushProvisioningInterface: VisaPushProvisioningInterface, error: VPError) { }
     
