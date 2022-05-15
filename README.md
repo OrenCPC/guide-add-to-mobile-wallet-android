@@ -51,7 +51,7 @@ Below the diagram, you will find an explanation for each step in the flow.<br/><
 
 Note: If a version of the VDES DK prior to v 2.0.0 hasbeen previously implemented, clients must delete all of the older libraries and add the new ones in the libs folder.
 
-Gradle Dependencies:
+### Gradle Dependencies:
 1.
  In order to add the VDE SDK to the project, obtain the VDE SDK and all dependent libraries. Add these under the libs folder and declare them as Gradle dependencies (in case the libs folder doesn't already exist - create it). Make sure to add the open source
  dependencies mentioned in the following Gradle sample.
