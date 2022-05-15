@@ -52,8 +52,7 @@ Below the diagram, you will find an explanation for each step in the flow.<br/><
 
 ![](./Docs/assets/add_to_wallet_flow_diagram.png)
 
-### Gradle Dependencies:
-1.
+### Step 1 - Gradle Dependencies:
  In order to add the VDE SDK to the project, obtain the VDE SDK and all dependent libraries. Add these under the libs folder and declare them as Gradle dependencies (in case the libs folder doesn't already exist - create it). Make sure to add the open source
  dependencies mentioned in the following Gradle sample.
  
