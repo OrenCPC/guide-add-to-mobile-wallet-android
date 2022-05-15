@@ -95,9 +95,9 @@ implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$any-latest-ver
 #### Step 3 - Initialize the VisaPushProvisioningInterface instance and implement the VisaPushProvisioningListener
 
 Initialize the VisaPushProvisioningInterface instance in the init() method of your class:
-`
+```kotlin
 pushProvisioningInterface = VisaPushProvisioningInterfaceFactory.createPushProvisioningInterface(this)
-`
+```
 
 Declare the VisaPushProvisioningListener methods, we will implement them later:
 
