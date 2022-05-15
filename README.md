@@ -156,7 +156,8 @@ Handle initialization callbacks of the VisaPushProvisioningListener
     }`
 
 #### Step 4 - Get wallet payload from Unit API
-Get the mobile wallet encrypted payload for a specified Unit card from Unit API. Read more details in Unit get mobile wallet payload docs.
+Get the mobile wallet encrypted payload for a specified Unit card from Unit API.
+Read more details in [Unit get mobile wallet payload docs](https://docs.unit.co/cards-add-to-mobile-wallet#get-mobile-wallet-payload).
 
 
 
