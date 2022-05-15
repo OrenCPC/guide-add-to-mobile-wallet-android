@@ -64,7 +64,6 @@ Below the diagram, you will find an explanation for each step in the flow.<br/><
 
 ![](./Docs/assets/add_to_wallet_flow_diagram.png)
 
-
 #### Step 1 - Hold a reference to VisaPushProvisioningInterface
 
 ` var pushProvisioningInterface: VisaPushProvisioningInterface? = null `
