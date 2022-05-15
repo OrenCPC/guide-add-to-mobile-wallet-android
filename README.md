@@ -60,7 +60,6 @@ Note: If a version of the VDE SDK prior to v 2.0.0 has been previously implement
 
 The following diagram demonstrates the Add to Wallet flow.
 Below the diagram, you will find an explanation for each step in the flow.<br/><br/>
-`TODO: Add the diagram asset`
 
 ![add_to_wallet_flow_diagram](https://user-images.githubusercontent.com/98814559/168473482-3d57f67d-0109-4aee-999f-2cc76aef7db8.png)
 
