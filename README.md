@@ -44,6 +44,14 @@ This section describes the technical steps needed to integrate with Visa's SDK a
 
 Note: If a version of the VDE SDK prior to v 2.0.0 has been previously implemented, clients must delete all of the older libraries and add the new ones in the libs folder.
 
+#### Gradle Dependencies:
+ In order to add the VDE SDK to the project, obtain the VDE SDK and all dependent libraries. Add these under the libs folder and declare them as Gradle dependencies (in case the libs folder doesn't already exist - create it). Make sure to add the open source
+ dependencies mentioned in the following Gradle sample.
+ 
+ 
+`TO DO: Add the correct dependencies`
+
+
 `TO DO: Visa SDK Configuration?`
 
 ### Add to Wallet flow
@@ -56,12 +64,6 @@ Below the diagram, you will find an explanation for each step in the flow.<br/><
 
 ![](./Docs/assets/add_to_wallet_flow_diagram.png)
 
-#### Step 1 - Gradle Dependencies:
- In order to add the VDE SDK to the project, obtain the VDE SDK and all dependent libraries. Add these under the libs folder and declare them as Gradle dependencies (in case the libs folder doesn't already exist - create it). Make sure to add the open source
- dependencies mentioned in the following Gradle sample.
- 
- 
-`TO DO: Add the correct dependencies`
 
 #### Step 2 - Hold a reference to VisaPushProvisioningInterface
 
