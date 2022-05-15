@@ -156,7 +156,7 @@ override fun initializationSuccess(
     pushProvisioningInterface: VisaPushProvisioningInterface,
     error: VPError
     ) {
-    //handle error
+       //handle error
     }
 ```
 
@@ -180,14 +180,14 @@ override fun supportedWalletSuccess(
         pushProvisioningInterface: VisaPushProvisioningInterface,
         response: VPSupportedWalletResponse
     ) { 
-    val wallet = response.wallets
+       val wallet = response.wallets
     }
     
      override fun supportedWalletFailure(
         pushProvisioningInterface: VisaPushProvisioningInterface,
         error: VPError
     ) {
-     // handle error
+        // handle error
     }    
 ```
 
@@ -206,14 +206,14 @@ override fun cardProvisioningSuccess(
         pushProvisioningInterface: VisaPushProvisioningInterface,
         response: VPCardProvisioningResponse
     ) {
-  // update wallet status for Wallet
-  // provisioning flow completed, you can update the UI}
+       // update wallet status for Wallet
+       // provisioning flow completed, you can update the UI}
     
     override fun cardProvisioningFailure(
         pushProvisioningInterface: VisaPushProvisioningInterface,
         error: VPError
     ) {
-      // handle error
+        // handle error
 }
 ```
 
