@@ -155,5 +155,8 @@ Handle initialization callbacks of the VisaPushProvisioningListener
     //handle error
     }`
 
+#### Step 4 - Get wallet payload from Unit API
+Get the mobile wallet encrypted payload for a specified Unit card from Unit API. Read more details in Unit get mobile wallet payload docs.
+
 
 
