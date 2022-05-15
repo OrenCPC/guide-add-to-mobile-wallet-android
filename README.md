@@ -52,7 +52,7 @@ Below the diagram, you will find an explanation for each step in the flow.<br/><
 
 ![](./Docs/assets/add_to_wallet_flow_diagram.png)
 
-### Step 1 - Gradle Dependencies:
+#### Step 1 - Gradle Dependencies:
  In order to add the VDE SDK to the project, obtain the VDE SDK and all dependent libraries. Add these under the libs folder and declare them as Gradle dependencies (in case the libs folder doesn't already exist - create it). Make sure to add the open source
  dependencies mentioned in the following Gradle sample.
  
@@ -87,3 +87,12 @@ implementation "androidx.lifecycle:lifecycle-process:$any-latest-version"
 //If kotlin plugins are not added then below dependencies require to add to kotlin coroutines used by SDK.
 implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$any-latest-version"
 implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$any-latest-version" }
+
+#### Step 2 - Hold a strong reference to VisaPushProvisioningInterface
+
+` var pushProvisioningInterface: VisaPushProvisioningInterface? = null `
+
+#### Step 3 - Initialize the VisaPushProvisioningInterface instance and implement the VisaPushProvisioningListener
+Initialize the VisaPushProvisioningInterface instance in the init() method of your class:
+`val pushProvisioningInterface = VisaPushProvisioningInterfaceFactory.createPushProvisioningInterface(listener)`
+
