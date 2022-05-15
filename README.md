@@ -28,4 +28,6 @@ This section describes the technical steps needed to integrate with Visa's SDK a
 
 The following diagram demonstrates the Add to Wallet flow.
 Below the diagram, you will find an explanation for each step in the flow.<br/><br/>
+`TODO: Add the diagram asset`
+
 ![](./Docs/assets/add_to_wallet_flow_diagram.png)
