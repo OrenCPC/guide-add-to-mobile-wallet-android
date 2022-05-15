@@ -57,7 +57,7 @@ Gradle Dependencies:
  dependencies mentioned in the following Gradle sample.
  
  
-`//Only if App is developed in kotlin and using kotlin-plugins for development then below can be used for kotlin coroutines dependencies as well, no need to add separate dependency.
+//Only if App is developed in kotlin and using kotlin-plugins for development then below can be used for kotlin coroutines dependencies as well, no need to add separate dependency.
  
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
@@ -86,5 +86,4 @@ implementation "com.nimbusds:nimbus-jose-jwt:8.2.1" implementation "com.google.c
 implementation "androidx.lifecycle:lifecycle-process:$any-latest-version"
 //If kotlin plugins are not added then below dependencies require to add to kotlin coroutines used by SDK.
 implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$any-latest-version"
-implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$any-latest-version" }`
-
+implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$any-latest-version" }
