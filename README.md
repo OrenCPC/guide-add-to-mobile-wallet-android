@@ -125,14 +125,13 @@ Declare the VisaPushProvisioningListener methods, we will implement them later:
      override fun supportedWalletFailure(
         pushProvisioningInterface: VisaPushProvisioningInterface,
         error: VPError
-    ) { } ```
+    ) { } 
     
 
 
 Initialize the VisaPushProvisioningInterface instance in the init() method of your class:
-``` kotlin
-pushProvisioningInterface = VisaPushProvisioningInterfaceFactory.createPushProvisioningInterface(this)
-```
+`pushProvisioningInterface = VisaPushProvisioningInterfaceFactory.createPushProvisioningInterface(this)
+`
 
 
 
