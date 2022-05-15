@@ -31,7 +31,6 @@ Before you start with the technical integration, please follow the prerequiremen
 
 This section describes the technical steps needed to integrate with Visa's SDK and add a Unit card to the mobile Wallet.
 
-`TODO`
 
 
 ### Add Visa SDK to your project
