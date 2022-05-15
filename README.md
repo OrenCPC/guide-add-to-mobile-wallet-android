@@ -185,6 +185,6 @@ override fun cardProvisioningSuccess(
         error: VPError
     ) {
         // handle error
-}
+      }
 ```
 
