@@ -57,36 +57,7 @@ Below the diagram, you will find an explanation for each step in the flow.<br/><
  dependencies mentioned in the following Gradle sample.
  
  
-//Only if App is developed in kotlin and using kotlin-plugins for development then below can be used for kotlin coroutines dependencies as well, no need to add separate dependency.
- 
-apply plugin: 'kotlin-android'
-apply plugin: 'kotlin-android-extensions'
-android { compileSdkVersion 30 defaultConfig {
-minSdkVersion 26
-targetSdkVersion 30 }
-}
-dependencies {
-//In-App Provisioning SDK
-implementation files('libs/VisaPushProvisioning-3.0.0.aar')
-implementation files('libs/VisaInAppCore-3.0.0.aar')
-implementation files('libs/TMXProfiling-6.1-67.aar')
-implementation files('libs/TMXProfilingConnections-6.1-67.aar')
-//Samsung Pay
-implementation files('libs/samsungpaysdk-2.6.00.jar')
-//Google Pay
-implementation files('libs/play-services-tapandpay-17.0.1.aar')
-implementation "com.google.android.gms:play-services-base:17.0.0"
-//okhttp covers for okttp, okio dependency implementation "com.squareup.okhttp3:okhttp:3.12.0"
-implementation "com.squareup.okhttp3:logging-interceptor:3.12.0" implementation "net.minidev:json-smart:2.3"
-//For TrustDefender
-implementation "commons-io:commons-io:2.6"
-implementation "commons-codec:commons-codec:1.13"
-//Nimbus
-implementation "com.nimbusds:nimbus-jose-jwt:8.2.1" implementation "com.google.code.gson:gson:2.8.5"
-implementation "androidx.lifecycle:lifecycle-process:$any-latest-version"
-//If kotlin plugins are not added then below dependencies require to add to kotlin coroutines used by SDK.
-implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$any-latest-version"
-implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$any-latest-version" }
+`TO DO: Add the correct dependencies`
 
 #### Step 2 - Hold a reference to VisaPushProvisioningInterface
 
