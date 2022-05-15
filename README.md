@@ -183,3 +183,26 @@ override fun supportedWalletSuccess(
      // handle error
     }    
 `
+
+#### Step 7 - Start card provisioning
+Call to `startCardProvisioning(context: Context, request: VPCardProvisioningRequest)` method:
+
+`val vpCardProvisioningRequest = VPCardProvisioningRequest(wallet.code, wallet.name)
+pushProvisioningInterface?.startCardProvisioning(context, vpCardProvisioningRequest)`
+
+Handle `startCardProvisioning` callbacks of the `VisaPushProvisioningListener`
+
+`override fun cardProvisioningSuccess(
+        pushProvisioningInterface: VisaPushProvisioningInterface,
+        response: VPCardProvisioningResponse
+    ) {
+  // update wallet status for Wallet
+  // provisioning flow completed, you can update the UI}
+    
+    override fun cardProvisioningFailure(
+        pushProvisioningInterface: VisaPushProvisioningInterface,
+        error: VPError
+    ) {
+      // handle error
+}`
+
