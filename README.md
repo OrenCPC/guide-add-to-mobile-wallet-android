@@ -101,7 +101,7 @@ pushProvisioningInterface = VisaPushProvisioningInterfaceFactory.createPushProvi
 
 Declare the VisaPushProvisioningListener methods, we will implement them later:
 
-   
+```kotlin
    override fun initializationSuccess(
    pushProvisioningInterface: VisaPushProvisioningInterface,
    response: VPInitResponse
@@ -131,6 +131,7 @@ Declare the VisaPushProvisioningListener methods, we will implement them later:
         pushProvisioningInterface: VisaPushProvisioningInterface,
         error: VPError
     ) { } 
+```
     
 
 
