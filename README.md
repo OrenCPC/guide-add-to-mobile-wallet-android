@@ -39,3 +39,14 @@ Below the diagram, you will find an explanation for each step in the flow.<br/><
 `TODO: Add the diagram asset`
 
 ![](./Docs/assets/add_to_wallet_flow_diagram.png)
+
+### Add Visa SDK to your project
+
+1. Download the push provisioning package from Android Studio, which consists of the following dependencies:
+Visa Confidential 32
+- VisaPushProvisioning-3.0.0.aar - VisaInAppCore-3.0.0.aar
+- TMXProfiling-6.1-67.aar
+- TMXProfilingConnections-6.1-67.aar
+- samsungpaysdk-2.6.00.jar
+- play-services-tapandpay-17.0.1.aar - dexguard-runtime-9.0.6.aar
+
