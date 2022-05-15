@@ -140,7 +140,8 @@ Call to `initialize()` method
 
 Handle initialization callbacks of the VisaPushProvisioningListener
 
-`override fun initializationSuccess(
+` 
+override fun initializationSuccess(
    pushProvisioningInterface: VisaPushProvisioningInterface,
    response: VPInitResponse
    ) { 
