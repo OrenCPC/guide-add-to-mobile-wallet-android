@@ -126,12 +126,13 @@ Declare the VisaPushProvisioningListener methods, we will implement them later:
         pushProvisioningInterface: VisaPushProvisioningInterface,
         error: VPError
     ) { }
-    ```
+    
 
 
 Initialize the VisaPushProvisioningInterface instance in the init() method of your class:
-`         pushProvisioningInterface = VisaPushProvisioningInterfaceFactory.createPushProvisioningInterface(this)
-`
+``` kotlin
+pushProvisioningInterface = VisaPushProvisioningInterfaceFactory.createPushProvisioningInterface(this)
+```
 
 
 
