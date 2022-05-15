@@ -55,8 +55,9 @@ Gradle Dependencies:
 1.
  In order to add the VDE SDK to the project, obtain the VDE SDK and all dependent libraries. Add these under the libs folder and declare them as Gradle dependencies (in case the libs folder doesn't already exist - create it). Make sure to add the open source
  dependencies mentioned in the following Gradle sample.
- `
-  //Only if App is developed in kotlin and using kotlin-plugins for development then below can be used for kotlin coroutines dependencies as well, no need to add separate dependency.
+ 
+ 
+//Only if App is developed in kotlin and using kotlin-plugins for development then below can be used for kotlin coroutines dependencies as well, no need to add separate dependency.
  
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
@@ -66,7 +67,9 @@ targetSdkVersion 30 }
 }
 dependencies {
 //In-App Provisioning SDK
-implementation files('libs/VisaPushProvisioning-3.0.0.aar') implementation files('libs/VisaInAppCore-3.0.0.aar') implementation files('libs/TMXProfiling-6.1-67.aar')
+implementation files('libs/VisaPushProvisioning-3.0.0.aar')
+implementation files('libs/VisaInAppCore-3.0.0.aar')
+implementation files('libs/TMXProfiling-6.1-67.aar')
 implementation files('libs/TMXProfilingConnections-6.1-67.aar')
 //Samsung Pay
 implementation files('libs/samsungpaysdk-2.6.00.jar')
