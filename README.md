@@ -40,7 +40,7 @@ This section describes the technical steps needed to integrate with Visa's SDK a
 - samsungpaysdk-2.6.00.jar
 - play-services-tapandpay-17.0.1.aar - dexguard-runtime-9.0.6.aar
 
-Note: If a version of the VDES DK prior to v 2.0.0 hasbeen previously implemented, clients must delete all of the older libraries and add the new ones in the libs folder.
+Note: If a version of the VDE SDK prior to v 2.0.0 has been previously implemented, clients must delete all of the older libraries and add the new ones in the libs folder.
 
 ### Add to Wallet flow
 
