@@ -65,11 +65,11 @@ Below the diagram, you will find an explanation for each step in the flow.<br/><
 ![](./Docs/assets/add_to_wallet_flow_diagram.png)
 
 
-#### Step 2 - Hold a reference to VisaPushProvisioningInterface
+#### Step 1 - Hold a reference to VisaPushProvisioningInterface
 
 ` var pushProvisioningInterface: VisaPushProvisioningInterface? = null `
 
-#### Step 3 - Initialize the VisaPushProvisioningInterface instance and implement the VisaPushProvisioningListener
+#### Step 2 - Initialize the VisaPushProvisioningInterface instance and implement the VisaPushProvisioningListener
 
 Initialize the VisaPushProvisioningInterface instance in the init() method of your class:
 ```kotlin
@@ -112,7 +112,7 @@ Declare the VisaPushProvisioningListener methods, we will implement them later:
     
 
 
-#### Step 4 - Initialize Visa SDK and get the signedNonce
+#### Step 3 - Initialize Visa SDK and get the signedNonce
 Call to `initialize()` method
 ```kotlin 
 pushProvisioningInterface?.initialize()
@@ -137,11 +137,11 @@ override fun initializationSuccess(
     }
 ```
 
-#### Step 5 - Get wallet payload from Unit API
+#### Step 4 - Get wallet payload from Unit API
 Get the mobile wallet encrypted payload for a specified Unit card from Unit API.
 Read more details in [Unit get mobile wallet payload docs](https://docs.unit.co/cards-add-to-mobile-wallet#get-mobile-wallet-payload).
 
-#### Step 6 - Get supported wallets
+#### Step 5 - Get supported wallets
 Call to `getSupportedWallets(request: VPSupportedWalletRequest)` method using the payload from step 5
 
 
@@ -168,7 +168,7 @@ override fun supportedWalletSuccess(
     }    
 ```
 
-#### Step 7 - Start card provisioning
+#### Step 6 - Start card provisioning
 Call to `startCardProvisioning(context: Context, request: VPCardProvisioningRequest)` method:
 
 ```kotlin 
