@@ -136,7 +136,7 @@ pushProvisioningInterface = VisaPushProvisioningInterfaceFactory.createPushProvi
 
 #### Step 3 - Initialize Visa SDK and get the signedNonce
 Call to `initialize()` method
-`pushProvisioningInterface?.initialize()`
+```pushProvisioningInterface?.initialize()```
 
 Handle initialization callbacks of the VisaPushProvisioningListener
 
