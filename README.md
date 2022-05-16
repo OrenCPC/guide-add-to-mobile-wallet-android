@@ -29,6 +29,8 @@ https://developers.google.com/pay/clients/apis/push-provisioning/android/launch-
     c. Note: Access to this portion of the Google site may be restricted to users with certain administrative
 access
 
+    d.Fill the following Push Provisioning API Acess Request: 
+
 
 Execute the necessary agreements. The below are required, even if you already support Google Pay for manual card provisioning, to establish a relationship with you as a mobile app provider.
 
