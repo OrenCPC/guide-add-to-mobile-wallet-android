@@ -63,6 +63,7 @@ Below the diagram, you will find an explanation for each step in the flow.<br/><
 
 ![](./Docs/assets/Unit - Android Add to wallet flow diagram.png)
 
+
 #### Step 1 - Hold a reference to VisaPushProvisioningInterface
 
 ` var pushProvisioningInterface: VisaPushProvisioningInterface? = null `
