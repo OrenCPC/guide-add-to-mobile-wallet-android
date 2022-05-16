@@ -22,14 +22,23 @@ Contact Unit for the SDK's binaries.
 5. Follow Google's step-by-step instructions for apps that intend to use Google Pay:
 https://developers.google.com/pay/clients/apis/push-provisioning/android/launch-process
 
-    a. Review and adhere to Google's branding and user experience requirements : https://developers.google.com/pay/issuers/apis/push-provisioning/android/branding-guidelines
+          a.(Step 1 in launch process)
+          Review and adhere to Google's branding and user experience requirements :
+          https://developers.google.com/pay/issuers/apis/push-provisioning/android/branding-guidelines
  
-    b. Complete the user experience branding review with Google(watch requirements at launch page and then fill the following form: https://support.google.com/faqs/contact/pp_api_ux)
- 
-    c. Note: Access to this portion of the Google site may be restricted to users with certain administrative
-access
+          b.(Step 1 in launch process)
+          Complete the user experience branding review with Google(watch requirements at launch page and then fill the following form:               https://support.google.com/faqs/contact/pp_api_ux)
 
-    d.Fill the following Push Provisioning API Acess Request: 
+          c.(Step 2 in launch process)
+          Complete the following form: https://support.google.com/faqs/contact/pp_api_allowlist
+          with the following:
+              •Select "BIN Sponsor or Program Manager working on behalf of a financial company or card issuer
+    
+              •Enter your Bank Partner's name (not Unit)
+    
+              •Answer "Does the financial company or card issuer have a signed CTA agreement with Google?" with Yes
+    
+             •Network will be Visa
 
 
 Execute the necessary agreements. The below are required, even if you already support Google Pay for manual card provisioning, to establish a relationship with you as a mobile app provider.
