@@ -13,6 +13,53 @@ Contact Unit for the SDK's binaries.
 
 ## Prerequirements
 
+### Google Developer Portal
+
+1. Ensure that the client (and any mobile app providers/developers) have executed any required CTA agreements, as well as the Google NDA, via the Google Developer Portal
+2. Verify that the client BIN(s) are token eligible and set up to support the Google Pay1 wallet type
+3. Create an account in the Google Developer Portal, if one does not already exist
+4. Review all detailed tasks required for In-App Provisioning outlined in the Google Developer Portal
+5. Follow Google's step-by-step instructions for apps that intend to use Google Pay:
+https://developers.google.com/pay/clients/apis/push-provisioning/android/launch-process
+ a. Review and adhere to Google's branding and user experience requirements : https://developers.google.com/pay/issuers/apis/push-provisioning/android/branding-guidelines
+ 
+ b. Complete the user experience branding review with Google(watch requirements at launch page and then fill the following form: https://support.google.com/faqs/contact/pp_api_ux)
+ 
+ c. Note: Access to this portion of the Google site may be restricted to users with certain administrative
+access
+
+
+Execute the necessary agreements. The below are required, even if you already support Google Pay for manual card provisioning, to establish a relationship with you as a mobile app provider.
+
+Push Provisioning API Access Request
+
+Select "BIN Sponsor or Program Manager working on behalf of a financial company or card issuer
+Enter your Bank Partner's name (not Unit)
+Answer "Does the financial company or card issuer have a signed CTA agreement with Google?" with Yes
+Network will be Visa
+Google NDA
+
+Verify that your BIN(s) are token eligible and set up to support Google Pay. Unit can assist with this step.
+
+Create an account in the Google Developer Portal, if you do not already have one
+
+Review all detailed tasks required for push provisioning outlined in the Google Developer Portal
+
+Follow Google’s step-by-step instructions for apps that intend to use Google Pay.
+
+Review and adhere to Google’s branding and user experience requirements
+Complete the UX/branding review with Google
+When you’re ready to release to production, continue with Google’s step-by-step instructions
+
+Completion of App whitelisting
+Completion of App review
+Completion of App field testing
+Request launch approval from Google
+
+Once approved by Google, follow the standard process to release the app into the Google Play Store.
+
+
+
 Before you start with the technical integration, please follow the prerequirements below:
 
 • The minimum supported Android SDK API version is 26.
