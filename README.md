@@ -47,10 +47,12 @@ This section describes the technical steps needed to integrate with Visa's SDK a
 Note: If a version of the VDE SDK prior to v 2.0.0 has been previously implemented, clients must delete all of the older libraries and add the new ones in the libs folder.
 
 #### Gradle Dependencies:
- In order to add the VDE SDK to the project, obtain the VDE SDK and all dependent libraries. Add these under the libs folder (in case the libs folder doesn't already exist - create it).:
+ In order to add the VDE SDK to the project, obtain the VDE SDK and all dependent libraries. Add these under the libs folder (in case the libs folder doesn't already exist - create it).
+ 
+ 
  ![image](https://user-images.githubusercontent.com/98814559/168608922-f19066b5-f282-417c-a534-3fe780d10caf.png)
 
- and declare them as Gradle dependencies. Make sure to add the open source
+ Declare them as Gradle dependencies. Make sure to add the open source
  dependencies mentioned in the following Gradle sample.
  
  ``` kotlin
