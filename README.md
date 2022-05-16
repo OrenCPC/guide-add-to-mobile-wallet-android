@@ -21,11 +21,12 @@ Contact Unit for the SDK's binaries.
 4. Review all detailed tasks required for In-App Provisioning outlined in the Google Developer Portal
 5. Follow Google's step-by-step instructions for apps that intend to use Google Pay:
 https://developers.google.com/pay/clients/apis/push-provisioning/android/launch-process
- a. Review and adhere to Google's branding and user experience requirements : https://developers.google.com/pay/issuers/apis/push-provisioning/android/branding-guidelines
+
+    a. Review and adhere to Google's branding and user experience requirements : https://developers.google.com/pay/issuers/apis/push-provisioning/android/branding-guidelines
  
- b. Complete the user experience branding review with Google(watch requirements at launch page and then fill the following form: https://support.google.com/faqs/contact/pp_api_ux)
+    b. Complete the user experience branding review with Google(watch requirements at launch page and then fill the following form: https://support.google.com/faqs/contact/pp_api_ux)
  
- c. Note: Access to this portion of the Google site may be restricted to users with certain administrative
+    c. Note: Access to this portion of the Google site may be restricted to users with certain administrative
 access
 
 
