@@ -43,35 +43,6 @@ https://developers.google.com/pay/clients/apis/push-provisioning/android/launch-
              •Network will be Visa
 
 
-Execute the necessary agreements. The below are required, even if you already support Google Pay for manual card provisioning, to establish a relationship with you as a mobile app provider.
-
-Push Provisioning API Access Request
-
-Select "BIN Sponsor or Program Manager working on behalf of a financial company or card issuer
-Enter your Bank Partner's name (not Unit)
-Answer "Does the financial company or card issuer have a signed CTA agreement with Google?" with Yes
-Network will be Visa
-Google NDA
-
-Verify that your BIN(s) are token eligible and set up to support Google Pay. Unit can assist with this step.
-
-Create an account in the Google Developer Portal, if you do not already have one
-
-Review all detailed tasks required for push provisioning outlined in the Google Developer Portal
-
-Follow Google’s step-by-step instructions for apps that intend to use Google Pay.
-
-Review and adhere to Google’s branding and user experience requirements
-Complete the UX/branding review with Google
-When you’re ready to release to production, continue with Google’s step-by-step instructions
-
-Completion of App whitelisting
-Completion of App review
-Completion of App field testing
-Request launch approval from Google
-
-Once approved by Google, follow the standard process to release the app into the Google Play Store.
-
 
 
 Before you start with the technical integration, please follow the prerequirements below:
