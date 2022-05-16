@@ -53,6 +53,51 @@ Note: If a version of the VDE SDK prior to v 2.0.0 has been previously implement
  and declare them as Gradle dependencies (in case the libs folder doesn't already exist - create it). Make sure to add the open source
  dependencies mentioned in the following Gradle sample.
  
+ ``` kotlin
+ dependencies {
+
+    // In-App Provisioning SDK
+    implementation files('libs/VisaPushProvisioning-3.0.0.aar')
+    implementation files('libs/VisaInAppCore-3.0.0.aar')
+    implementation files('libs/TMXProfiling-6.1-67.aar')
+    implementation files('libs/TMXProfilingConnections-6.1-67.aar')
+
+    // Samsung Pay
+    implementation files('libs/samsungpaysdk-2.6.00.jar')
+
+    //dexguard
+    implementation files ('libs/dexguard-runtime-9.0.6.aar')
+
+    // Google Pay
+    implementation files('libs/play-services-tapandpay-17.0.1.aar')
+    implementation "com.google.android.gms:play-services-base:17.0.0"
+    implementation 'com.google.android.gms:play-services-instantapps:17.0.0'
+
+    //Nimbus
+    implementation "com.nimbusds:nimbus-jose-jwt:9.22"
+
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
+
+    implementation 'androidx.core:core-ktx:1.7.0'
+    implementation 'androidx.appcompat:appcompat:1.4.1'
+
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.google.code.gson:gson:2.8.6'
+    implementation 'com.squareup.retrofit2:converter-gson:2.5.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.12.1'
+
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+
+    //Kotlin Coroutines
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2"
+
+}
+ 
+ ```
+ 
  
 `TO DO: Add the correct dependencies`
 
