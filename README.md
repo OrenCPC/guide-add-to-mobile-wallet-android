@@ -61,8 +61,8 @@ Note: If a version of the VDE SDK prior to v 2.0.0 has been previously implement
 The following diagram demonstrates the Add to Wallet flow.
 Below the diagram, you will find an explanation for each step in the flow.<br/><br/>
 
-![alt text](https://github.com/[OrenCPC]/[guide-add-to-mobile-wallet-android
-]/blob/[main]/Unit - Android Add to wallet flow diagram.png?raw=true)
+![](./Docs/assets/add_to_wallet_flow_diagram.png)
+
 
 #### Step 1 - Hold a reference to VisaPushProvisioningInterface
 
