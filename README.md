@@ -27,7 +27,9 @@ https://developers.google.com/pay/clients/apis/push-provisioning/android/launch-
           https://developers.google.com/pay/issuers/apis/push-provisioning/android/branding-guidelines
  
           b.(Step 1 in launch process)
-          Complete the user experience branding review with Google(watch requirements at launch page and then fill the following form:               https://support.google.com/faqs/contact/pp_api_ux)
+          Complete the user experience branding review with Google(watch requirements at launch page and then fill the following form:
+          https://support.google.com/faqs/contact/pp_api_ux
+          
 
           c.(Step 2 in launch process)
           Complete the following form: https://support.google.com/faqs/contact/pp_api_allowlist
