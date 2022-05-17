@@ -233,25 +233,25 @@ Call to `getSupportedWallets(request: VPSupportedWalletRequest)` method using th
 
 ```kotlin 
 val vpSupportedWalletRequest = VPSupportedWalletRequest(payload)
- pushProvisioningInterface?.getSupportedWallets(vpSupportedWalletRequest)
+pushProvisioningInterface?.getSupportedWallets(vpSupportedWalletRequest)
 ```
  
- Handle `getSupportedWallets` callbacks of the `VisaPushProvisioningListener`
+Handle `getSupportedWallets` callbacks of the `VisaPushProvisioningListener`
  
  ```kotlin
-override fun supportedWalletSuccess(
-        pushProvisioningInterface: VisaPushProvisioningInterface,
-        response: VPSupportedWalletResponse
-    ) { 
-       val wallet = response.wallets
-    }
-    
-     override fun supportedWalletFailure(
-        pushProvisioningInterface: VisaPushProvisioningInterface,
-        error: VPError
-    ) {
-        // handle error
-    }    
+ override fun supportedWalletSuccess(
+    pushProvisioningInterface: VisaPushProvisioningInterface,
+    response: VPSupportedWalletResponse
+) {
+    val wallet = response.wallets
+}
+
+override fun supportedWalletFailure(
+    pushProvisioningInterface: VisaPushProvisioningInterface,
+    error: VPError
+) {
+    // handle error
+}    
 ```
 
 #### Step 6 - Start card provisioning
