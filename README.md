@@ -24,15 +24,14 @@ https://developers.google.com/pay/clients/apis/push-provisioning/android/launch-
 
 ##### Step 1: UX/branding review
           
-a. Review and adhere to Google's branding and user experience requirements :
-https://developers.google.com/pay/issuers/apis/push-provisioning/android/branding-guidelines
+a. Review and adhere to [Google's branding and user experience requirements](https://developers.google.com/pay/issuers/apis/push-provisioning/android/branding-guidelines)
                     
-b. You may download Google's sample app to further understand the branding :
-https://developers.google.com/pay/issuers/apis/push-provisioning/android/android-sample-app
+b. You may download [Google's sample app](https://developers.google.com/pay/issuers/apis/push-provisioning/android/android-sample-app
+) to further understand the branding 
                     
 c. Watch the flow diagram: <img width="925" alt="image" src="https://user-images.githubusercontent.com/98814559/168740199-876a02e4-9977-4e89-922b-2194f5bb867f.png">
 
-d. Complete the user experience branding review with Google (watch the requirements at launch page and then fill                    the following form:
+d. Complete the user experience branding review with Google (watch the requirements at [launch page](https://developers.google.com/pay/issuers/apis/push-provisioning/android/launch-process) and then fill                    the following form:
 https://support.google.com/faqs/contact/pp_api_ux )
           
 
