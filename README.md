@@ -22,13 +22,19 @@ Contact Unit for the SDK's binaries.
 #### 5. Follow Google's step-by-step instructions for apps that intend to use Google Pay:
 https://developers.google.com/pay/clients/apis/push-provisioning/android/launch-process
 
-          a.(Step 1 in launch process)
-          Review and adhere to Google's branding and user experience requirements :
-          https://developers.google.com/pay/issuers/apis/push-provisioning/android/branding-guidelines
+          * Step 1: UX/branding review *
+          
+                    a. Review and adhere to Google's branding and user experience requirements :
+                    https://developers.google.com/pay/issuers/apis/push-provisioning/android/branding-guidelines
+                    
+                    b. You may download Google's sample app to further understand the branding :
+                    https://developers.google.com/pay/issuers/apis/push-provisioning/android/android-sample-app
+                    
+                    c.
  
-          b.(Step 1 in launch process)
-          Complete the user experience branding review with Google(watch requirements at launch page and then fill the following form:
-          https://support.google.com/faqs/contact/pp_api_ux
+                     b.
+                     Complete the user experience branding review with Google (watch the requirements at launch page and then fill                      the following form:
+                     https://support.google.com/faqs/contact/pp_api_ux )
           
 
           c.(Step 2 in launch process)
