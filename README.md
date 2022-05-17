@@ -154,10 +154,8 @@ Below the diagram, you will find an explanation for each step in the flow.<br/><
 
 #### Step 2 - Initialize the VisaPushProvisioningInterface instance and implement the VisaPushProvisioningListener in your class
 
-![image](https://user-images.githubusercontent.com/98814559/168614801-4384a181-00e0-4353-bd29-eea280568053.png)
+Initialize the `VisaPushProvisioningInterface` instance in the `init()` method of your class:
 
-
-Initialize the VisaPushProvisioningInterface instance in the init() method of your class:
 ```kotlin pushProvisioningInterface = VisaPushProvisioningInterfaceFactory.createPushProvisioningInterface(this) ```
 
 Declare the VisaPushProvisioningListener methods, we will implement them later:
