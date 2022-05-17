@@ -81,7 +81,7 @@ Before you start with the technical integration, please follow the prerequiremen
    - play-services-tapandpay-17.0.1.aar 
    - dexguard-runtime-9.0.6.aar
  
-2. Add the dependencies from previous step under the [libs](https://stackoverflow.com/a/35241990) folder of your project
+2. Add the dependencies from the previous step under the [libs](https://stackoverflow.com/a/35241990) folder of your project
     - In case the libs folder doesn't already exist you can [create it](https://stackoverflow.com/a/25681629)
 
 
