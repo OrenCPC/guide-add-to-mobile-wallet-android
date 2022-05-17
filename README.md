@@ -154,7 +154,7 @@ Below the diagram, you will find an explanation for each step in the flow.<br/><
 var pushProvisioningInterface: VisaPushProvisioningInterface? = null 
 ```
 
-#### Step 2 - Initialize the VisaPushProvisioningInterface instance and implement the VisaPushProvisioningListener in your class
+#### Step 2 - Initialize the VisaPushProvisioningInterface instance and implement the VisaPushProvisioningListener interface in your class
 
 Initialize the `VisaPushProvisioningInterface` instance in the `init()` method of your class:
 
