@@ -27,7 +27,7 @@ Contact Unit for the SDK's binaries.
 a. Review and adhere to [Google's branding and user experience requirements](https://developers.google.com/pay/issuers/apis/push-provisioning/android/branding-guidelines)
                     
 b. You may download [Google's sample app](https://developers.google.com/pay/issuers/apis/push-provisioning/android/android-sample-app
-) to further understand the branding 
+) to further understand the branding:
 <img width="831" alt="image" src="https://user-images.githubusercontent.com/98814559/168742114-9de62ac9-a472-4daa-9204-1e0c40f484eb.png">
 
                     
