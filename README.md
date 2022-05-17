@@ -139,7 +139,7 @@ Before you start with the technical integration, please follow the prerequiremen
 
    b. If your project uses **Proguard**, the following additional instructions should be followed:
    
-      1. These **Proguard** rules should be used:
+      b.1 These **Proguard** rules should be used:
       
       ```kotlin
       #Add below in your proguard file for Pro SDK
