@@ -86,7 +86,7 @@ Before you start with the technical integration, please follow the prerequiremen
 
 
 3. Gradle Dependencies:
-  - Declare the following Gradle dependencies. Make sure to add the open source dependencies mentioned:
+   - Declare the following Gradle dependencies. Make sure to add the open source dependencies mentioned:
   
  ``` kotlin
  dependencies {
