@@ -64,11 +64,11 @@ Before you start with the technical integration, please follow the prerequiremen
 
  - The minimum supported Android SDK API version is 26.
 
-• The deployment target is Android SDK API version is 30.
+ - The deployment target is Android SDK API version is 30.
 
-• The minimum supported Kotlin version is 1.5.10.
+ - The minimum supported Kotlin version is 1.5.10.
 
-• The minimum supported Java version is 1.8.
+ - The minimum supported Java version is 1.8.
 
 ### Add Visa SDK to your project
 
