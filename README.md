@@ -150,7 +150,7 @@ Below the diagram, you will find an explanation for each step in the flow.<br/><
 
 #### Step 1 - Hold a reference to VisaPushProvisioningInterface
 
-` var pushProvisioningInterface: VisaPushProvisioningInterface? = null `
+```kotlin var pushProvisioningInterface: VisaPushProvisioningInterface? = null ```
 
 #### Step 2 - Initialize the VisaPushProvisioningInterface instance and implement the VisaPushProvisioningListener in your class
 
