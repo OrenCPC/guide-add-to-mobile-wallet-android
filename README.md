@@ -137,7 +137,7 @@ Before you start with the technical integration, please follow the prerequiremen
 }
 ```
 
-b. If your project uses **Proguard**, the following additional instructions should be followed:
+   b. If your project uses **Proguard**, the following additional instructions should be followed:
    
    - These **Proguard** rules should be used:
       
@@ -155,7 +155,30 @@ b. If your project uses **Proguard**, the following additional instructions shou
 #If app supporting Google Pay then add below in your proguard file
 -keep class androidx.lifecycle.** { *; }
 ```
- 
+   - Gradle Dependencies for use with **Proguard:**
+   
+```kotlin
+//Includes all .jar and .aar from libs folder
+implementation fileTree(dir: 'libs', include: ['*.jar', '*.aar'])
+
+//okhttp covers for okttp, okio dependency
+implementation "com.squareup.okhttp3:okhttp:3.12.0" implementation "com.squareup.okhttp3:logging-interceptor:3.12.0" implementation "net.minidev:json-smart:2.3"
+
+//For TrustDefender
+implementation "commons-io:commons-io:2.6" implementation "commons-codec:commons-codec:1.13"
+
+//Nimbus
+implementation "com.nimbusds:nimbus-jose-jwt:8.2.1"
+implementation "com.google.code.gson:gson:2.8.5"
+
+//Kotlin Coroutines
+implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.3" implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.3"
+
+//If App is supporting Google Pay below must be included implementation 'com.google.android.material:material:1.2.1'
+implementation "com.google.android.gms:play-services-base:17.0.0" implementation 'androidx.lifecycle:lifecycle-extensions:2.1.0'
+
+```
+
  
  
  
