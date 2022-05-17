@@ -147,6 +147,7 @@ The following diagram demonstrates the Add to Wallet flow.
 Below the diagram, you will find an explanation for each step in the flow.<br/><br/>
 
 <img width="1373" alt="image" src="https://user-images.githubusercontent.com/98814559/168763743-81080058-89df-4932-9913-42d86a97ffef.png">
+
 #### Step 1 - Hold a reference to VisaPushProvisioningInterface
 
 ` var pushProvisioningInterface: VisaPushProvisioningInterface? = null `
