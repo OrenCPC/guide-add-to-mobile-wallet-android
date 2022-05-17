@@ -70,6 +70,10 @@ Before you start with the technical integration, please follow the prerequiremen
 
  - The minimum supported Java version is 1.8.
 
+ - The SDK requires to use a physical Android device and not a virtual device. 
+
+ - Make sure you have the relevant wallets which you will add cards to installed on your device
+
 ### Add VDE (Visa Digital Enablement) SDK to your project
 
 1. Get the push provisioning package from Unit, which consists of the following dependencies:
