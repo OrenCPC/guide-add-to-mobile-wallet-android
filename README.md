@@ -11,9 +11,9 @@ Use Visa's In-App Provisioning SDK to enable this capability for your end-users.
 
 Contact Unit for the SDK's binaries.
 
-## Prerequirements
+## Google Developer Portal
 
-### Google Developer Portal
+### Prerequirements 
 
 1. Ensure that the client (and any mobile app providers/developers) have executed any required CTA agreements, as well as the Google NDA, via the Google Developer Portal
 2. Verify that the client BIN(s) are token eligible and set up to support the Google Pay wallet type (Unit can assist with this step)
