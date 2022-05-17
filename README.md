@@ -189,7 +189,7 @@ implementation "com.google.android.gms:play-services-base:17.0.0" implementation
 </queries>
 ```
    
-   b.Add the below in AndroidManifest.xml file, if VDE SDK has returned a 'NOT_AVAILABLE' status.
+   b. Add the below in AndroidManifest.xml file, if VDE SDK has returned a 'NOT_AVAILABLE' status.
    
 ```kotlin
 <meta-data android:name="spay_sdk_api_level" android:value="2.6" />
