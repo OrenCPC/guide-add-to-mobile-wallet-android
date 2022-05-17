@@ -37,16 +37,18 @@ d. Complete the user experience branding review with Google (watch the requireme
 
           
 
-          c.(Step 2 in launch process)
-          Complete the following form: https://support.google.com/faqs/contact/pp_api_allowlist
-          with the following:
-              •Select "BIN Sponsor or Program Manager working on behalf of a financial company or card issuer
+##### Step 2: [Push Provisioning API access](https://developers.google.com/pay/issuers/apis/push-provisioning/android/launch-process#step_2_push_provisioning_api_access)
+
+Complete this [form](https://support.google.com/faqs/contact/pp_api_allowlist)
+with the following information:
+
+•Select "BIN Sponsor or Program Manager working on behalf of a financial company or card issuer
     
-              •Enter your Bank Partner's name (not Unit)
+•Enter your Bank Partner's name (not Unit)
     
-              •Answer "Does the financial company or card issuer have a signed CTA agreement with Google?" with Yes
+•Answer "Does the financial company or card issuer have a signed CTA agreement with Google?" with Yes
     
-             •Network will be Visa
+•Network will be Visa
 
 
 
