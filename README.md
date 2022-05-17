@@ -180,6 +180,7 @@ implementation "com.google.android.gms:play-services-base:17.0.0" implementation
 ```
 
 4. Additional instructions for **Samsung Pay**
+
    a. If the target device includes Android 11 and above, add the below in the app's AndroidManifest.xml file. If this is not added, the VDE SDK may return a 'NOT_INSTALLED' status.
    
 ```kotlin
@@ -188,8 +189,12 @@ implementation "com.google.android.gms:play-services-base:17.0.0" implementation
 </queries>
 ```
    
+   b.Add the below in AndroidManifest.xml file, if VDE SDK has returned a 'NOT_AVAILABLE' status.
    
-   b.
+```kotlin
+<meta-data android:name="spay_sdk_api_level" android:value="2.6" />
+<meta-data android:name="debug_mode" android:value="N" />
+```
 
  
  
