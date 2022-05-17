@@ -90,7 +90,8 @@ Before you start with the technical integration, please follow the prerequiremen
 
 
 3. Gradle Dependencies:
-   - Declare the following Gradle dependencies. Make sure to add the open source dependencies mentioned:
+
+   a. Declare the following Gradle dependencies. Make sure to add the open source dependencies mentioned:
   
  ``` kotlin
  dependencies {
@@ -134,8 +135,22 @@ Before you start with the technical integration, please follow the prerequiremen
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2"
 
 }
+```
+
+   b. If your project uses **Proguard**, the following additional instructions should be followed:
+      1. These **Proguard** rules should be used:
+      ```
+      #Add below in your proguard file for Pro SDK 
+      -keep class kotlin.Metadata { *; }
+      -keep class com.threatmetrix.** { *; }
+      -keep class com.visa.** { *; }
+      #If app supporting Samsung Pay then add below in your proguard file
+      -keep class com.samsung.android.sdk.** { *; }
+      #If app supporting Google Pay then add below in your proguard file
+      -keep class androidx.lifecycle.** { *; }
+      ```
  
- ```
+ 
  
  
 `TO DO: Should you add the samsung dependency if the company doesn't support Samsung?`
