@@ -33,7 +33,7 @@ b. You may download [Google's sample app](https://developers.google.com/pay/issu
                     
 c. Watch the flow diagram: <img width="925" alt="image" src="https://user-images.githubusercontent.com/98814559/168740199-876a02e4-9977-4e89-922b-2194f5bb867f.png">
 
-d. Complete the user experience branding review with Google (watch the requirements at [launch page](https://developers.google.com/pay/issuers/apis/push-provisioning/android/launch-process) and then fill                    [this form](https://support.google.com/faqs/contact/pp_api_ux)
+d. Complete the user experience branding review with Google (watch the requirements at [launch page](https://developers.google.com/pay/issuers/apis/push-provisioning/android/launch-process#step_1_uxbranding_review) and then fill                    [this form](https://support.google.com/faqs/contact/pp_api_ux)
 
           
 
