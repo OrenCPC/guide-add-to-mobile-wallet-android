@@ -70,9 +70,9 @@ Before you start with the technical integration, please follow the prerequiremen
 
  - The minimum supported Java version is 1.8.
 
-### Add Visa SDK to your project
+### Add VDE (Visa Digital Enablement) SDK to your project
 
-1. Download the push provisioning package from Android Studio, which consists of the following dependencies:
+1. Get the push provisioning package from Unit, which consists of the following dependencies:
    - VisaPushProvisioning-3.0.0.aar
    - VisaInAppCore-3.0.0.aar
    - TMXProfiling-6.1-67.aar
@@ -80,14 +80,13 @@ Before you start with the technical integration, please follow the prerequiremen
    - samsungpaysdk-2.6.00.jar
    - play-services-tapandpay-17.0.1.aar 
    - dexguard-runtime-9.0.6.aar
+ 
+2. Add the dependencies from previous step under the [libs](https://stackoverflow.com/a/35241990) folder of your project
+    - In case the libs folder doesn't already exist you can [create it](https://stackoverflow.com/a/25681629)
 
 
 #### Gradle Dependencies:
- In order to add the VDE SDK to the project, obtain the VDE SDK and all dependent libraries. Add these under the libs folder (in case the libs folder doesn't already exist - create it).
  
- 
- ![image](https://user-images.githubusercontent.com/98814559/168608922-f19066b5-f282-417c-a534-3fe780d10caf.png)
-
  Declare them as Gradle dependencies. Make sure to add the open source
  dependencies mentioned in the following Gradle sample.
  
