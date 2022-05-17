@@ -19,8 +19,8 @@ Contact Unit for the SDK's binaries.
 2. Verify that the client BIN(s) are token eligible and set up to support the Google Pay wallet type (Unit can assist with this step)
 3. Create an account in the Google Developer Portal, if one does not already exist //ask about the developer portal
 4. Review all detailed tasks required for In-App Provisioning outlined in the Google Developer Portal //will be understood after 3 will be clear
-#### 5. Follow Google's step-by-step instructions for apps that intend to use Google Pay:
-https://developers.google.com/pay/clients/apis/push-provisioning/android/launch-process
+#### 5. Follow Google's step-by-step [instructions](https://developers.google.com/pay/clients/apis/push-provisioning/android/launch-process) for apps that intend to use Google Pay: 
+
 
 ##### Step 1: UX/branding review
           
