@@ -73,14 +73,14 @@ Before you start with the technical integration, please follow the prerequiremen
 ### Add Visa SDK to your project
 
 1. Download the push provisioning package from Android Studio, which consists of the following dependencies:
-- VisaPushProvisioning-3.0.0.aar
-- VisaInAppCore-3.0.0.aar
-- TMXProfiling-6.1-67.aar
-- TMXProfilingConnections-6.1-67.aar
-- samsungpaysdk-2.6.00.jar
-- play-services-tapandpay-17.0.1.aar 
-- dexguard-runtime-9.0.6.aar
-- 
+   - VisaPushProvisioning-3.0.0.aar
+   - VisaInAppCore-3.0.0.aar
+   - TMXProfiling-6.1-67.aar
+   - TMXProfilingConnections-6.1-67.aar
+   - samsungpaysdk-2.6.00.jar
+   - play-services-tapandpay-17.0.1.aar 
+   - dexguard-runtime-9.0.6.aar
+
 
 #### Gradle Dependencies:
  In order to add the VDE SDK to the project, obtain the VDE SDK and all dependent libraries. Add these under the libs folder (in case the libs folder doesn't already exist - create it).
