@@ -85,11 +85,9 @@ Before you start with the technical integration, please follow the prerequiremen
     - In case the libs folder doesn't already exist you can [create it](https://stackoverflow.com/a/25681629)
 
 
-#### Gradle Dependencies:
- 
- Declare them as Gradle dependencies. Make sure to add the open source
- dependencies mentioned in the following Gradle sample.
- 
+3. Gradle Dependencies:
+  - Declare the following Gradle dependencies. Make sure to add the open source dependencies mentioned:
+  
  ``` kotlin
  dependencies {
 
