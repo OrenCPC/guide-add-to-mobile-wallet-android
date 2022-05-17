@@ -52,6 +52,15 @@ with the following information:
 
 
 
+## Integration steps
+
+### Overview
+
+This section describes the technical steps needed to integrate with Visa's SDK and add a Unit card to the mobile Wallet.
+
+
+
+### Add Visa SDK to your project
 
 Before you start with the technical integration, please follow the prerequirements below:
 
@@ -65,15 +74,6 @@ Before you start with the technical integration, please follow the prerequiremen
 
 `TODO: Add forms and other prerequirements`
 
-## Integration steps
-
-### Overview
-
-This section describes the technical steps needed to integrate with Visa's SDK and add a Unit card to the mobile Wallet.
-
-
-
-### Add Visa SDK to your project
 
 1. Download the push provisioning package from Android Studio, which consists of the following dependencies:
 - VisaPushProvisioning-3.0.0.aar
