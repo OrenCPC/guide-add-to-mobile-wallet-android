@@ -72,7 +72,7 @@ Before you start with the technical integration, please follow the prerequiremen
 
  - The SDK requires to use a physical Android device and not a virtual device. 
 
- - Make sure you have the relevant wallets which you will add cards to installed on your device
+ - Make sure you have the relevant wallets to which you will add cards installed on your device
 
 ### Add VDE (Visa Digital Enablement) SDK to your project
 
