@@ -138,12 +138,18 @@ Before you start with the technical integration, please follow the prerequiremen
 ```
 
    b. If your project uses **Proguard**, the following additional instructions should be followed:
+   
       1. These **Proguard** rules should be used:
+      
       ```kotlin
-      #Add below in your proguard file for Pro SDK 
+      #Add below in your proguard file for Pro SDK
+      
       -keep class kotlin.Metadata { *; }
+      
       -keep class com.threatmetrix.** { *; }
+
       -keep class com.visa.** { *; }
+
       #If app supporting Samsung Pay then add below in your proguard file
       -keep class com.samsung.android.sdk.** { *; }
       #If app supporting Google Pay then add below in your proguard file
