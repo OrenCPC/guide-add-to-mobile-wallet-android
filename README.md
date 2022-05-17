@@ -209,18 +209,18 @@ Handle initialization callbacks of the VisaPushProvisioningListener
 
 ```kotlin 
 override fun initializationSuccess(
-   pushProvisioningInterface: VisaPushProvisioningInterface,
-   response: VPInitResponse
-   ) { 
-   val signedNonce = response.signedNonce
-   }
-   
-   override fun initializationFailure(
+    pushProvisioningInterface: VisaPushProvisioningInterface,
+    response: VPInitResponse
+) {
+    val signedNonce = response.signedNonce
+}
+
+override fun initializationFailure(
     pushProvisioningInterface: VisaPushProvisioningInterface,
     error: VPError
-    ) {
-       //handle error
-    }
+) {
+    //handle error
+}
 ```
 
 #### Step 4 - Get wallet payload from Unit API
