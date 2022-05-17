@@ -184,7 +184,7 @@ implementation "com.google.android.gms:play-services-base:17.0.0" implementation
    
 ```kotlin
 <queries>
-          <package android:name="com.samsung.android.spay" />
+    <package android:name="com.samsung.android.spay" />
 </queries>
 ```
    
