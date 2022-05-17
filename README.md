@@ -134,10 +134,10 @@ Before you start with the technical integration, please follow the prerequiremen
  ```
  
  
-`TO DO: Add the correct dependencies`
+`TO DO: Should you add the samsung dependency if the company doesn't support Samsung?`
 
 
-`TO DO: Visa SDK Configuration?`
+
 
 ### Add to Wallet flow
 
