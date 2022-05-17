@@ -80,8 +80,7 @@ Before you start with the technical integration, please follow the prerequiremen
 - samsungpaysdk-2.6.00.jar
 - play-services-tapandpay-17.0.1.aar 
 - dexguard-runtime-9.0.6.aar
-
-*Note: If a version of the VDE SDK prior to v 2.0.0 has been previously implemented, clients must delete all of the older libraries and add the new ones in the libs folder.*
+- 
 
 #### Gradle Dependencies:
  In order to add the VDE SDK to the project, obtain the VDE SDK and all dependent libraries. Add these under the libs folder (in case the libs folder doesn't already exist - create it).
