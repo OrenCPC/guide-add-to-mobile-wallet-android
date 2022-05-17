@@ -42,13 +42,13 @@ d. Complete the user experience branding review with Google (watch the requireme
 Complete this [form](https://support.google.com/faqs/contact/pp_api_allowlist)
 with the following information:
 
-•Select "BIN Sponsor or Program Manager working on behalf of a financial company or card issuer
+          - Select "BIN Sponsor or Program Manager working on behalf of a financial company or card issuer
     
-•Enter your Bank Partner's name (not Unit)
+          - Enter your Bank Partner's name (not Unit)
     
-•Answer "Does the financial company or card issuer have a signed CTA agreement with Google?" with Yes
+          - Answer "Does the financial company or card issuer have a signed CTA agreement with Google?" with Yes
     
-•Network will be Visa
+          - Network will be Visa
 
 
 
