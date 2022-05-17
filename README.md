@@ -266,17 +266,18 @@ Handle `startCardProvisioning` callbacks of the `VisaPushProvisioningListener`
 
 ```kotlin 
 override fun cardProvisioningSuccess(
-        pushProvisioningInterface: VisaPushProvisioningInterface,
-        response: VPCardProvisioningResponse
-    ) {
-       // update wallet status for Wallet
-       // provisioning flow completed, you can update the UI}
-    
-    override fun cardProvisioningFailure(
-        pushProvisioningInterface: VisaPushProvisioningInterface,
-        error: VPError
-    ) {
-        // handle error
-      }
+    pushProvisioningInterface: VisaPushProvisioningInterface,
+    response: VPCardProvisioningResponse
+) {
+    // update wallet status for Wallet
+    // provisioning flow completed, you can update the UI}
+}
+
+override fun cardProvisioningFailure(
+    pushProvisioningInterface: VisaPushProvisioningInterface,
+    error: VPError
+) {
+    // handle error
+}
 ```
 
