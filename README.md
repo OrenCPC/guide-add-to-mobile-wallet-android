@@ -153,8 +153,7 @@ Before you start with the technical integration, please follow the prerequiremen
 The following diagram demonstrates the Add to Wallet flow.
 Below the diagram, you will find an explanation for each step in the flow.<br/><br/>
 
-![](./Docs/assets/add_to_wallet_flow_diagram.png?raw=true)
-
+![image](https://user-images.githubusercontent.com/98814559/168751330-a12d6821-2bec-45e8-a5ad-141bbd4b83d7.png)
 
 #### Step 1 - Hold a reference to VisaPushProvisioningInterface
 
