@@ -62,7 +62,7 @@ This section describes the technical steps needed to integrate with Visa's SDK a
 
 Before you start with the technical integration, please follow the prerequirements below:
 
-• The minimum supported Android SDK API version is 26.
+ - The minimum supported Android SDK API version is 26.
 
 • The deployment target is Android SDK API version is 30.
 
