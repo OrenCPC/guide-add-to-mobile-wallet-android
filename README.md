@@ -168,38 +168,32 @@ Declare the VisaPushProvisioningListener methods, we will implement them later:
 override fun initializationSuccess(
     pushProvisioningInterface: VisaPushProvisioningInterface,
     response: VPInitResponse
-) {
-}
+) { }
 
 override fun initializationFailure(
     pushProvisioningInterface: VisaPushProvisioningInterface,
     error: VPError
-) {
-}
+) { }
 
 override fun cardProvisioningSuccess(
     pushProvisioningInterface: VisaPushProvisioningInterface,
     response: VPCardProvisioningResponse
-) {
-}
+) { }
 
 override fun cardProvisioningFailure(
     pushProvisioningInterface: VisaPushProvisioningInterface,
     error: VPError
-) {
-}
+) { }
 
 override fun supportedWalletSuccess(
     pushProvisioningInterface: VisaPushProvisioningInterface,
     response: VPSupportedWalletResponse
-) {
-}
+) { }
 
 override fun supportedWalletFailure(
     pushProvisioningInterface: VisaPushProvisioningInterface,
     error: VPError
-) {
-} 
+) { } 
 ```
     
 
